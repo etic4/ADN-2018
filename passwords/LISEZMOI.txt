@@ -1,0 +1,4 @@
+cp /srv/www/passwapp/passwapp.service  /etc/systemd/system/passwapp.service
+chmod 755 /etc/systemd/system/passwapp.service
+systemctl enable /etc/systemd/system/passwapp.service
+service passwapp start

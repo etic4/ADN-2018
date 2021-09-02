@@ -1,0 +1,56 @@
+.note-form {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.note {
+  margin: 20px;
+  padding: 10px;
+  min-width: 200px;
+  min-height: 100px;
+  border: 1px solid grey;
+}
+
+.note-headers {
+  float: left;
+  width: 20%;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.note-content {
+  margin-left: 21%;
+  width: 79%;
+}
+.note-content h3 {
+  margin-top: 10px;
+}
+
+.note-user {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.note-privee {
+  border: 3px solid orange;
+}
+
+.delete-note {
+  float: right;
+}
+
+.password-form {
+  padding: 20px;
+}
+
+.form-part {
+  margin-bottom: 20px;
+}
+.apptst-pref-form button{
+  margin-top: 20px;
+  min-width: 60px;
+}
+
+.apptst-checkbox-label{
+  margin-left: 10px;
+}

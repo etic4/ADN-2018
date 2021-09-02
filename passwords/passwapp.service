@@ -1,0 +1,19 @@
+[Unit]
+Description = passwapp  
+After = network.target
+
+[Service]
+PermissionsStartOnly = true  
+PIDFile = /run/passwapp/passwapp.pid  
+User = moi  
+Group = www-data
+RuntimeDirectory=passwapp
+WorkingDirectory = /srv/www/passwapp  
+ExecStart = /usr/local/bin/gunicorn --pid /run/passwapp/passwapp.pid --bind 127.0.0.1:5001 --log-file /var/log/gunicorn/passwap.log --reload passwapp:app  
+ExecReload = /bin/kill -s HUP $MAINPID  
+ExecStop = /bin/kill -s TERM $MAINPID
+
+PrivateTmp = true
+
+[Install]
+WantedBy = multi-user.target  

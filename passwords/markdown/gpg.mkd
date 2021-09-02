@@ -1,0 +1,10 @@
+Dans l'ordre:
+
+* Installation de Thunderbird (cf [test](https://pass.r1x.ovh/email/client))
+* création d'un compte email et paramétrage thunderbird
+* Echange d'emails non cryptés
+* Installation de GPG
+* Installation d'Enigmail
+* Le cas échéant, ajout d'une nouvelle paire de clés (Enigmail/Gestion des clés/Générer)
+* Création de clés publiques et privées
+* Échange de mails cryptés

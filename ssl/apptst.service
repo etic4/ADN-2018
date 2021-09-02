@@ -1,0 +1,19 @@
+[Unit]
+Description = apptst  
+After = network.target
+
+[Service]
+PermissionsStartOnly = true  
+PIDFile = /run/apptst/apptst.pid  
+User = moi  
+Group = www-data
+RuntimeDirectory=apptst
+WorkingDirectory = /srv/www/ssltst  
+ExecStart = /usr/local/bin/gunicorn --pid /run/apptst/apptst.pid --bind 127.0.0.1:5000 --reload apptst:app  
+ExecReload = /bin/kill -s HUP $MAINPID  
+ExecStop = /bin/kill -s TERM $MAINPID
+
+PrivateTmp = true
+
+[Install]
+WantedBy = multi-user.target  

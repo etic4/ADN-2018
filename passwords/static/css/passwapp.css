@@ -1,0 +1,46 @@
+.main-content {
+    margin-bottom: 20px;
+}
+.passwapp-form input {
+    margin-left: 10px;
+}
+
+.passwapp-form button {
+    margin-left: 10px;
+}
+.passwd_input {
+    margin-bottom: 40px;
+}
+.check-results p{
+    margin: 0;
+}
+
+.check-results h4 {
+    text-decoration: underline;
+}
+.passwapp-progress-container {
+    max-width: 70%;
+}
+.passwapp-pattern {
+    margin-top: 10px;
+}
+.progress-bar {
+    height: 10px;
+    margin: 10px;
+    float: none;
+}
+.passwords-list {
+    margin-top:30px;
+}
+.password-form {
+    margin-bottom: 20px;
+}
+.form-part {
+    margin-bottom: 10px;
+}
+.password-hashed {
+    margin: 10px;
+}
+.clear-passw {
+    color: DarkGreen;
+}

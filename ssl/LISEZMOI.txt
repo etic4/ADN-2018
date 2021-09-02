@@ -1,0 +1,4 @@
+cp /srv/www/ssltst/apptst.service  /etc/systemd/system/apptst.service
+chmod 755 /etc/systemd/system/apptst.service
+systemctl enable /etc/systemd/system/apptst.service
+service apptst start

@@ -1,0 +1,12 @@
+**Matin**:
+
+1. Introduction à la cryptographie
+2. Emails cryptés avec GPG
+
+**Après-midi**:
+
+3. Soit:
+    * Installation et usage de Tails (nécessite une clé USB)
+    * Crypter fichier, dossier, partition
+4. Retours sur la formation
+5. Perspectives de suites et de prolongements
